@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#login{
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+#logo-img{
+    flex: 1;
+    border: 1px black solid;
+}
+#login-form{
+    flex: 1;
+    border: 1px black solid;
+
+}
+
+body{
+    height:100vh;
+    overflow: hidden;
+    width: 100vw;
+}
